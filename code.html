@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Immersive Design Studio</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#6c2bee",
+            "background-light": "#f6f6f8",
+            "background-dark": "#161022",
+          },
+          fontFamily: {
+            "display": ["Space Grotesk"]
+          },
+          borderRadius: {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+        },
+      },
+    }
+  </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body>
+<div class="relative flex h-auto min-h-screen w-full flex-col bg-background-light dark:bg-background-dark group/design-root overflow-x-hidden" style='font-family: "Space Grotesk", "Noto Sans", sans-serif;'>
+<!-- HeroSection -->
+<div class="@container">
+<div class="@[480px]:p-4">
+<div class="flex min-h-[480px] h-screen flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 items-center justify-center p-4" data-alt="Abstract flowing light patterns against a dark background, creating a sense of depth and motion." style='background-image: linear-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.7) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuBu--C07aCu9zvTgQK1NQmCCyPG14FM5v3txiEeIetBDqOQGZ45tGf1t7ZIanj7sQbLbpHHi0QoG7O41D4C1QUHi2Tu_QjXkuWHbNU1KdFXIGrmlmsSU2xeHrShzq4txcsMlO8UfLO2fgChP0ThOstVmKBfNdguSjCURMiAv3ZGV0A9-hWMr7mec2xLXQ3QwgdkfKTf9k83PyPOvj75weAkqkXVOqHXwLt_QvGB8c5OMQ_9j8Z7XuHgvwNjv8OoOTl30zPaN4UMY-I");'>
+<div class="flex flex-col gap-2 text-center">
+<h1 class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em] font-display">
+              Designing Future Realities
+            </h1>
+<h2 class="text-gray-300 dark:text-gray-300 text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal font-display">
+              A studio specializing in immersive design experiences that captivate and inspire.
+            </h2>
+</div>
+</div>
+</div>
+</div>
+<!-- Studio Intro Section -->
+<div class="px-4 py-16 sm:px-6 lg:px-8 lg:py-24 text-center">
+<h2 class="text-slate-900 dark:text-white text-[22px] font-bold leading-tight tracking-[-0.015em] pb-3 pt-5 font-display">The Studio</h2>
+<p class="text-slate-600 dark:text-gray-300 text-base font-normal leading-normal pt-1 max-w-2xl mx-auto font-display">
+        We are a collective of artists, designers, and engineers dedicated to crafting next-generation immersive experiences that bridge the gap between the digital and physical worlds.
+      </p>
+</div>
+<!-- FeatureSection -->
+<div class="flex flex-col gap-10 px-4 py-10 @container sm:px-6 lg:px-8">
+<div class="flex flex-col gap-4 text-center">
+<h1 class="text-slate-900 dark:text-white tracking-light text-[32px] font-bold leading-tight @[480px]:text-4xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em] max-w-[720px] mx-auto font-display">
+          What We Do
+        </h1>
+<p class="text-slate-600 dark:text-gray-300 text-base font-normal leading-normal max-w-[720px] mx-auto font-display">Our expertise lies in creating sensory-rich environments and interactive narratives.</p>
+</div>
+<div class="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-4 p-0 max-w-6xl mx-auto">
+<div class="flex flex-1 gap-3 rounded-lg border border-slate-200 dark:border-[#433b54] bg-white dark:bg-[#1f1c27] p-6 flex-col items-center text-center">
+<div class="text-primary" data-icon="VirtualReality">
+<span class="material-symbols-outlined" style="font-size: 36px;">view_in_ar</span>
+</div>
+<div class="flex flex-col gap-1">
+<h2 class="text-slate-900 dark:text-white text-base font-bold leading-tight font-display">Virtual Reality</h2>
+<p class="text-slate-500 dark:text-[#a69db9] text-sm font-normal leading-normal font-display">Building worlds that defy expectation and redefine reality.</p>
+</div>
+</div>
+<div class="flex flex-1 gap-3 rounded-lg border border-slate-200 dark:border-[#433b54] bg-white dark:bg-[#1f1c27] p-6 flex-col items-center text-center">
+<div class="text-primary" data-icon="HandTap">
+<span class="material-symbols-outlined" style="font-size: 36px;">touch_app</span>
+</div>
+<div class="flex flex-col gap-1">
+<h2 class="text-slate-900 dark:text-white text-base font-bold leading-tight font-display">Interactive Installations</h2>
+<p class="text-slate-500 dark:text-[#a69db9] text-sm font-normal leading-normal font-display">Engaging physical spaces with dynamic digital overlays and interactions.</p>
+</div>
+</div>
+<div class="flex flex-1 gap-3 rounded-lg border border-slate-200 dark:border-[#433b54] bg-white dark:bg-[#1f1c27] p-6 flex-col items-center text-center">
+<div class="text-primary" data-icon="SpeakerHifi">
+<span class="material-symbols-outlined" style="font-size: 36px;">spatial_audio</span>
+</div>
+<div class="flex flex-col gap-1">
+<h2 class="text-slate-900 dark:text-white text-base font-bold leading-tight font-display">Spatial Audio</h2>
+<p class="text-slate-500 dark:text-[#a69db9] text-sm font-normal leading-normal font-display">Designing soundscapes that create a profound sense of presence and place.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Carousel Section -->
+<div class="py-16 sm:py-24">
+<div class="text-center px-4 pb-10">
+<h2 class="text-slate-900 dark:text-white text-[22px] font-bold leading-tight tracking-[-0.015em] font-display">Our Work</h2>
+</div>
+<div class="flex overflow-x-auto [-ms-scrollbar-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden">
+<div class="flex items-stretch p-4 gap-4 flex-nowrap first:pl-4 last:pr-4 sm:first:pl-6 sm:last:pr-6 lg:first:pl-8 lg:last:pr-8">
+<div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-72 sm:min-w-80">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg flex flex-col" data-alt="Futuristic digital art showing glowing geometric shapes in a dark void." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAYj2dHhfRIBcF4XnYmjsdG_0rIQ-alFIep3Sy8I5mbSvYONk-9-TMoEkFwOwrxYghISH-o7u3Ttc7koPNW8ro89ufschFvg-6xuaga6SS_plOaP_aO4Ni7Dib-7nscbhbcuYhuGakNmQiGRtC-pAS_mA8MAkuvTp2Z0Hx3pZR07TL0d4on4q_nLy5K7X0OmoKirDchOp-Co0e-Lev_tl5EWoyySLO2iNgbOCaB9ZTTRDL0DfNNqeuammxemcNjlzleABeoXQxA2dI");'></div>
+<div>
+<p class="text-slate-900 dark:text-white text-base font-medium leading-normal font-display">Project Cygnus</p>
+<p class="text-slate-500 dark:text-[#a69db9] text-sm font-normal leading-normal font-display">VR Experience</p>
+</div>
+</div>
+<div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-72 sm:min-w-80">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg flex flex-col" data-alt="A person wearing VR goggles interacting with a vibrant, abstract digital environment." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA0sGyuvjqy475EWuhpWT1GDrwQ3Fa0-c7sNW0AqESjSLOgJmajOlc8caxgFEEvAHwxrLwrzBwHHbdR0KkFiJhEkwytEPBzihTF41G08bdJwQ0pDvteVQTZ6y3H7xpQnPKIsd5F78fe9D1dScB7hb3WD8UulULvtd583yvfjWvTEj2611oBj5AQa2kISSSZM1Bwdhcyc9qNxE97NlYKEsEHop3ryL8kLDnWAdOmzYm1_KI6jmsDZ7wU_1VJSGxxeYMDmvfg7t6n1kk");'></div>
+<div>
+<p class="text-slate-900 dark:text-white text-base font-medium leading-normal font-display">Project Echo</p>
+<p class="text-slate-500 dark:text-[#a69db9] text-sm font-normal leading-normal font-display">Haptic Installation</p>
+</div>
+</div>
+<div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-72 sm:min-w-80">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg flex flex-col" data-alt="An interactive light installation in a public space, with people walking through colorful beams of light." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAnrXC-Jw6sA6dllGgQBIRfxxgRKzj9VGRgvoIumsdF2eCgzXVwbNIQX6cElzWkySUc0Bm8E6kfH3ctZnbFenxzAIOKMBwknKqmw-0ZuxPpcDb5eIXdI3lB7rnvpoh1ztFw_BWivWxyPbUhhE6EahTtxZwodqTfVuFpatVbMAH72qUIFQR9VOVeMDJKMHfnYdMPWzZ6vFiibMR3kY8Tkd_gW0Gg0vdc9eSrBg96y01GkHKaXV5lGgmsBpbaBTgqlP-1IhA75qNbl28");'></div>
+<div>
+<p class="text-slate-900 dark:text-white text-base font-medium leading-normal font-display">Project Nova</p>
+<p class="text-slate-500 dark:text-[#a69db9] text-sm font-normal leading-normal font-display">Public Art</p>
+</div>
+</div>
+<div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-72 sm:min-w-80">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg flex flex-col" data-alt="Abstract visualization of sound waves creating a 3D landscape." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDUN4NXj5JI6zaCGc8ad2hrsi76s5iZPqnuh_m-2futJlVEQx40gABECbRrgcMnUUePXO7Pcnj3iSUkLxnswDjAAo6H1DoBG-O0LsgaoHlFPxjIDh6nhA3QUrVRLIzHu6anDbCrySfnk8J-ZF7INdoLw8nBukJRCYXW7lzDHZ9LYGWewmcOFaJtO1B0mVvpFcwVWIv5cp9GblgAxtBe-tOp229F__euP8SjuhgDle8hbLlU5dTv6aBlZL76md4lL-2zUoFxCncHpXg");'></div>
+<div>
+<p class="text-slate-900 dark:text-white text-base font-medium leading-normal font-display">Project Aura</p>
+<p class="text-slate-500 dark:text-[#a69db9] text-sm font-normal leading-normal font-display">Spatial Sound</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- CTA Section -->
+<div class="px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
+<div class="text-center flex flex-col items-center gap-4">
+<h2 class="text-slate-900 dark:text-white text-3xl font-bold tracking-tight sm:text-4xl font-display">
+          Let's Create Together
+        </h2>
+<p class="mt-2 text-lg leading-8 text-slate-600 dark:text-gray-300 max-w-2xl font-display">
+          Have an idea for an immersive experience? We'd love to hear about it.
+        </p>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 mt-6 @[480px]:h-12 @[480px]:px-5 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em] font-display">
+<span class="truncate">Start a Project</span>
+</button>
+</div>
+</div>
+</div>
+</body></html>
